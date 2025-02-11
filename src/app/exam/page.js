@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import "../../../styles/ExamPage.css";
 import { GoSearch } from "react-icons/go";
 import { FaPlus } from "react-icons/fa";
@@ -7,6 +8,7 @@ import ExamCard from "../components/Exam/ExamCard";
 import HorizontalMenu from "../components/Exam/HorizontalMenu";
 import SignatureSheet from "../components/Exam/SignatureSheet";
 const page = () => {
+  const [acitveButton, setActiveButton] = useState(6);
   return (
     <div className="container">
       <div className="exam-section">
@@ -30,8 +32,15 @@ const page = () => {
       </div>
       <div className="exam-divider"></div>
       <ExamCard />
-      <HorizontalMenu />
-      <SignatureSheet />
+      <HorizontalMenu
+        acitveButton={acitveButton}
+        setActiveButton={setActiveButton}
+      />
+      {acitveButton === 6 ? (
+        <SignatureSheet />
+      ) : (
+        <h1>Only Signature Sheet is Build</h1>
+      )}
     </div>
   );
 };

@@ -16,9 +16,7 @@ const menuItems = [
   "Mark Entry",
 ];
 
-const HorizontalMenu = () => {
-  const [acitveButton, setActiveButton] = useState(6);
-  //   content of the button is not dynamic for now. i have to lift the state up to mangae that.
+const HorizontalMenu = ({ acitveButton, setActiveButton }) => {
   return (
     <div className="menu-container">
       <div className="menu-items">
