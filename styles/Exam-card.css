@@ -1,0 +1,178 @@
+.exam-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    gap: 20px;
+}
+
+.exam-card-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    border-radius: 8px;
+    border-left: 4px solid #d9534f;
+    padding: 15px;
+
+    border: 1px solid #ddd;
+
+}
+
+.college-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 60%;
+    background-color: white;
+}
+
+.college-profile p {
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.college-profile h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+
+.logo {
+    border-radius: 50%;
+}
+
+.left-section h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.left-section p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.sem-divider {
+    margin: 0 5px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 2px solid gray;
+    width: 30%;
+}
+
+.middle-section .course,
+.middle-section .subject {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 10px;
+    gap: 8px;
+    font-size: 12px;
+}
+
+/* right section */
+.right-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    border-radius: 8px;
+    border-left: 4px solid #d9534f;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid #ddd;
+}
+
+.right-section .right-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 6px;
+    justify-content: end;
+}
+
+.menu-icon {
+    padding: 6px 8px;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.postpone-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.export-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+    font-size: 12px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.right-section .right-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.progress {
+    margin-top: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+    width: 54%;
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    height: 6px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.progress-fill {
+    width: 41%;
+    background-color: #d9534f;
+    height: 100%;
+}
+
+.right-section .socials {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    color: gray;
+    margin-top: 8px;
+    align-items: center;
+}

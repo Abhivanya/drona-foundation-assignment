@@ -1,0 +1,12 @@
+.signatue-sheet {
+    width: 100%;
+    background-color: white;
+    border: 6px solid maroon;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow-y: auto;
+}

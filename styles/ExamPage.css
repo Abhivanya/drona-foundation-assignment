@@ -1,0 +1,68 @@
+.container {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.exam-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eaxm-section .eaxm-section-left h2 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.exam-section .exam-section-left p {
+    font-size: 12px;
+    color: #61acde;
+    font-weight: 600;
+}
+
+.exam-section-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exam-section-right .search-icon {
+    background-color: black;
+    padding: 5px 6px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.exam-section-right {
+    display: flex;
+    gap: 15px;
+}
+
+.exam-section-right .create-exam,
+.exam-section-right .exam-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.exam-divider {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 8px auto;
+}

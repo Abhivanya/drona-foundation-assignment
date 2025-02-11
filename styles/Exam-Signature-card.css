@@ -1,0 +1,170 @@
+.exam-signature-card {
+    width: 270px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card-header.green {
+    background-color: #28a745;
+}
+
+.card-header.red {
+    background-color: #dc3545;
+}
+
+.card-body {
+    color: #333;
+}
+
+.card-top {
+    background-color: #e9ecef;
+    padding: 10px;
+}
+
+.card-body .subject-code {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body .subject-code p {
+    background-color: white;
+    width: 85%;
+    display: flex;
+    gap: 8px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.card-body .subject-code svg {
+    background-color: white;
+}
+
+.card-body .alphabet {
+    padding: 1px 5px;
+    color: white;
+    border-radius: 50%;
+}
+
+.card-body h3 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.exam-card-calander {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.student-attendance {
+    margin-top: 15px;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.student-attendence-top {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.student-attendence-top span {
+    padding: 4px 6px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.student-attendence-status {}
+
+.student-count {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.stat-box {
+    background: #e9ecef;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.stat-box span {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+.remaining-info {
+    background: #fdd6d6;
+    color: #d9534f;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.attendance-btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+}
+
+.text-green {
+    color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.blue {
+    background-color: blue;
+}
