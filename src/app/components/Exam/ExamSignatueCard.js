@@ -11,6 +11,7 @@ const ExamSignatureCard = ({
   totalStudents,
   presentStudents,
   absentStudents,
+  summaryMessage,
 }) => {
   const isExamConducted = status === "conducted";
   const remainingStudents = totalStudents - presentStudents;
@@ -68,11 +69,7 @@ const ExamSignatureCard = ({
               <span className="student-count text-red">{absentStudents}</span>
             </div>
           </div>
-          {remainingStudents > 0 && (
-            <div className="remaining-info">
-              4 students remain for attendance
-            </div>
-          )}
+          <div className="remaining-info"> {summaryMessage}</div>
           {isExamConducted ? (
             <button className="attendance-btn">
               Mark/Edit Student's Attendance

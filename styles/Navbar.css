@@ -93,7 +93,7 @@ header {
 
 .countContainer {
     position: relative;
-
+    cursor: pointer;
 }
 
 .countContainer .count {
@@ -113,6 +113,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
 }
 
 

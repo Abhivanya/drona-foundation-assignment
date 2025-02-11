@@ -2,15 +2,6 @@ import React from "react";
 import "../../../../styles/SignatureSheet.css";
 import ExamSignatureCard from "./ExamSignatueCard";
 const SignatureSheet = () => {
-  const examData = {
-    status: "conducted",
-    subjectCode: "4110343181",
-    subjectName: "Introduction to Functional English",
-    examDate: "01-01-2025",
-    totalStudents: 58,
-    presentStudents: 52,
-    absentStudents: 2,
-  };
   return (
     <div className="signatue-sheet">
       <ExamSignatureCard
@@ -21,6 +12,7 @@ const SignatureSheet = () => {
         totalStudents="58"
         presentStudents="52"
         absentStudents="2"
+        summaryMessage="4 Student remain for mark attendance"
       />
       <ExamSignatureCard
         status="not-conducted"
@@ -30,6 +22,7 @@ const SignatureSheet = () => {
         totalStudents="58"
         presentStudents="00"
         absentStudents="00"
+        summaryMessage="First mark exam as conducted"
       />
       <ExamSignatureCard
         status="conducted"
@@ -39,6 +32,7 @@ const SignatureSheet = () => {
         totalStudents="62"
         presentStudents="57"
         absentStudents="05"
+        summaryMessage="Good to Go!"
       />
       <ExamSignatureCard
         status="conducted"
@@ -48,6 +42,7 @@ const SignatureSheet = () => {
         totalStudents="57"
         presentStudents="57"
         absentStudents="00"
+        summaryMessage="Good to Go!"
       />
       <ExamSignatureCard
         status="not-conducted"
@@ -57,6 +52,7 @@ const SignatureSheet = () => {
         totalStudents="57"
         presentStudents="00"
         absentStudents="00"
+        summaryMessage="First mark exam as conducted"
       />
     </div>
   );
